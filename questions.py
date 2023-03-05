@@ -1,11 +1,10 @@
 # sukursime klausimų klasę, kuri atspindės kiekvieną žaidimo klausimą. 
 # Kiekvienas klausimas turės raginimą ir galimų atsakymų rinkinį, 
 # o vienas iš jų bus teisingas.
-
 #//// English
-# we'll create a question class to represent each question in the game.
+''' we'll create a question class to represent each question in the game.
 # Each question will have a prompt and a set of possible answers,
-# and one of them will be correct.
+# and one of them will be correct.'''
 
 
 from typing import List
@@ -18,10 +17,9 @@ class Question:
 
 # Tada sukursime modulį, vadinamą klausimais, kad išsaugotume 
 # klausimus, kurie bus naudojami žaidimo, sąraše.
-
 #///// English
-# Then we'll create a module called questions to store it
-# of questions to be used in the game list.
+''' Then we'll create a module called questions to store it
+# of questions to be used in the game list.'''
 
 class GameQuestion(Question):
     def check_answer(self, user_answer) -> bool:
