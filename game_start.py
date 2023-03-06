@@ -6,7 +6,7 @@ from typing import List
 logging.basicConfig(level=logging.INFO)
 
 
-#sukursime žaidimų klasę, kad galėtume valdyti patį žaidimą. Ši klasė turės metodus, kaip pradėti žaidimą, užduoti klausimus ir sekti vartotojo rezultatą.
+# Sukursime žaidimų klasę, kad galėtume valdyti patį žaidimą. Ši klasė turės metodus, kaip pradėti žaidimą, užduoti klausimus ir sekti vartotojo rezultatą.
 #///// English
 '''#Then we'll create a game class to handle the game itself. This class 
 will have methods to start the game, ask questions, and track the user's score.'''

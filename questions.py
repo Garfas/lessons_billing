@@ -1,6 +1,6 @@
 # sukursime klausimų klasę, kuri atspindės kiekvieną žaidimo klausimą. 
-# Kiekvienas klausimas turės raginimą ir galimų atsakymų rinkinį, 
-# o vienas iš jų bus teisingas.
+# Kiekvienas klausimas turės raginimą ir galimų atsakymų pasirinkimą, 
+# tik vienas iš jų bus teisingas.
 #//// English
 ''' we'll create a question class to represent each question in the game.
 # Each question will have a prompt and a set of possible answers,
