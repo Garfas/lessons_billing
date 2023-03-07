@@ -1,6 +1,6 @@
-# sukursime klausimų klasę, kuri atspindės kiekvieną žaidimo klausimą. 
+# sukursime klausimų klasę, kuri parodys kiekvieną žaidimo klausimą. 
 # Kiekvienas klausimas turės raginimą ir galimų atsakymų pasirinkimą, 
-# tik vienas iš jų bus teisingas.
+# bet, tik vienas iš jų bus teisingas.
 #//// English
 ''' we'll create a question class to represent each question in the game.
 # Each question will have a prompt and a set of possible answers,
@@ -15,7 +15,7 @@ class Question:
         self.answers = answers
         self.correct_answer = correct_answer
 
-# Tada sukursime modulį, vadinamą klausimais, kad išsaugotume 
+# sukursime modulį, vadinamą klausimais, kad išsaugotume 
 # klausimus, kurie bus naudojami žaidimo, sąraše.
 #///// English
 ''' Then we'll create a module called questions to store it
