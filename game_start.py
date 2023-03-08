@@ -1,7 +1,7 @@
 from questions import *
 import random
 import logging
-from typing import List
+from typing import Any, List
 
 logging.basicConfig(level=logging.INFO)
 
@@ -13,7 +13,7 @@ will have methods to start the game, ask questions, and track the user's score.'
 
 
 class Game:
-    def __init__(self, questions) -> None:
+    def __init__(self, questions : list[GameQuestion]) -> None:
         self.questions = questions
         self.score = 0
         self.total_questions = len(questions)
@@ -34,7 +34,7 @@ class Game:
         
         logging.info(f"\nGame over! You scored {self.score} out of {self.total_questions}.")
 
-    def ask_question(self, number, question) -> bool:
+    def ask_question(self, number : int, question : Any,) -> bool:
         logging.info(f"\nQuestion {number + 1}: {question.prompt}")
         for option, answer in question.answers.items():
             logging.info(f"{option}. {answer}")
