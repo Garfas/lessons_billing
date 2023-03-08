@@ -8,7 +8,7 @@ logging.basicConfig(level=logging.INFO)
 
 # Sukursim žaidimų klasę, kad galėtume valdyti patį žaidimą. Ši klasė turės metodus, kaip pradėti žaidimą, užduoti klausimus ir sekti vartotojo rezultatą.
 #///// English
-'''#Then we'll create a game class to handle the game itself. This class 
+'''Then we'll create a game class to handle the game itself. This class 
 will have methods to start the game, ask questions, and track the user's score.'''
 
 

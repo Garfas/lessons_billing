@@ -20,7 +20,7 @@ class Question:
 # klausimus, kurie bus naudojami žaidimo, sąraše.
 #///// English
 ''' Then we'll create a module called questions to store it
-# of questions to be used in the game list.'''
+ of questions to be used in the game list.'''
 
 class GameQuestion(Question):
     def check_answer(self, user_answer) -> bool:
