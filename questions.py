@@ -15,6 +15,7 @@ class Question:
         self.answers = answers
         self.correct_answer = correct_answer
 
+
 # sukursime modulį, vadinamą klausimais, kad išsaugotume 
 # klausimus, kurie bus naudojami žaidimo, sąraše.
 #///// English
